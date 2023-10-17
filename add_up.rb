@@ -1,12 +1,4 @@
 def add_up(i)
-#formula used 1 + 2 + ... + n = N(n+1)/2
-return i * (i+1) / 2;
-    
-end
-
-
-
-def add_up_loop(i)
     if i < 0
         return
     end
@@ -19,8 +11,8 @@ def add_up_loop(i)
     return sum 
   end
         
-  p add_up_loop(8)
+  p add_up(8)
   
-  p add_up_loop(10)
+  p add_up(10)
   
- p add_up_loop(6)
+ p add_up(6)
